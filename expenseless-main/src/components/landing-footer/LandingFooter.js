@@ -43,16 +43,11 @@ const LandingFooter = (props) => {
                                 <li><Link onClick={ScrollToTop} to='/pricing'>Pricing</Link></li>
                                 <li><Link onClick={ScrollToTop} to='/faq'>FAQ</Link></li>
                                 <li><Link onClick={ScrollToTop} to='/blog'>Blog</Link></li>
-                                <li><Link  onClick={ScrollToTop} to='/contact'>Contact</Link></li>
+                                <li><Link onClick={ScrollToTop} to='/contact'>Contact</Link></li>
                             </ul>
                         </nav>
                         <nav>
-                            <ul className='socials-menu'>
-                                <li><a href='https://github.com/chingu-voyages/v41-geckos-team-15'> <img src={Respository} alt='Github icon' /></a></li>
-                                <li><a href='/'> <img src={Website} alt='Website icon' /></a></li>
-                                <li><a href='https://github.com/NawalKH'> <img src={MaleIcon} alt='Male icon' /></a></li>
-                                <li><a href='https://github.com/catherineisonline'> <img src={FemaleIcon} alt='Female icon' /></a></li>
-                            </ul>
+
                         </nav>
                     </section>
                     <form className='footer-form' onSubmit={submitForm}>
